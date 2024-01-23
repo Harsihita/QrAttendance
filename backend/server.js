@@ -9,9 +9,6 @@ const port=0;
 dotenv.config()
 mongodb()
 const app = express();
-
-
-
 app.use(bodyParser.json());
 app.use(express.json())
 app.use(cors());
