@@ -1,0 +1,14 @@
+*{
+    overflow: hidden;
+}
+.box-2 img{
+    width: 87rem;
+}
+@media (max-width: 800px) {
+    .box-2 img {
+      display: none;
+    }
+    .top-text{
+      font-size: 1.8rem;
+    }
+  }
